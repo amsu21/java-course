@@ -53,12 +53,13 @@ public class custom_order {
     System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
     System.out.println("_______________________________________________");
 
-	
-      
 
     // TEST CODE     
     
     // STEP 5 PROMPT USER TO ORDER
+    // ASK USER IF THEY WANT TO ORDER CUPCAKES OR CAKE
+    System.out.println("Do you want CUPCAKES or a CAKE?");
+    itemOrder = keyboard.nextLine();
 
   
 	  
