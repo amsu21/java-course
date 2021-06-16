@@ -39,14 +39,19 @@ public class custom_order {
     firstName = keyboard.nextLine();
 
     System.out.print(firstName + ", please see our MENU below: ");
-    System.out.print("\n"); // skips a line	  
-
-   
-	  
-      
-    // TEST CODE     
+    System.out.print("\n"); // skips a line	    
     
     // STEP 4 DISPLAY MENU
+    System.out.println("_______________________________________________");      
+    System.out.println("        MENU         QUANTITY    BASE COST  ");
+    System.out.println("_______________________________________________"); 
+    System.out.println("        Cake             1            $15     ");
+    System.out.println("   Set of Cupcakes       6            $15     ");
+    System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+    System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
+    System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
+    System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
+    System.out.println("_______________________________________________");
 
 	
       
