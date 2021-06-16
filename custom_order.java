@@ -69,14 +69,12 @@ public class custom_order {
     System.out.println("Vanilla, Chocolate, Strawberry or Coco");
     frostingType = keyboard.nextLine();
    
-	 
-	 
-	 
-      
     //TEST CODE
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
-
+    System.out.println("What type of FILLING do you want? ");
+    System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
+    fillingType = keyboard.nextLine();
 
 	  
 	  
